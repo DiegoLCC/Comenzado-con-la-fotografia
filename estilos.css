@@ -1,0 +1,182 @@
+body{
+  background-color: #02010a;
+  font-family: Dancing Script;
+}
+img{
+  box-shadow: 2px 2px 2px #02010a;
+}
+#aqui{
+  text-decoration: none;
+}
+.contenido{
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cabecera{
+  width: 100%;
+  background-color:#5b7989;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  animation: rebote 0.5s;
+  display: flex;
+  flex-direction: row;
+}
+.cabecera #titulo{
+  width: 75%;
+  margin-left: 10px;
+}
+.cabecera #navegador{
+  width: 25%;
+  margin-top: 20px;
+}
+#navegador a{
+  color: white;
+}
+.imagencentral{
+  width: 100%;
+  background-color: #82c3a6;
+  text-align: center;
+}
+.imagencentral img{
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.imagensecundaria{
+width: 100%;
+background-color: #d5c75f;
+display: flex;
+flex-direction: row;
+}
+.imagensecundaria #paisaje{
+  width: 50%;
+  text-align: center;
+}
+#paisaje img{
+  width: 70%;
+  margin-top: 10px;
+  transition: 2s;
+}
+#paisaje img:hover{
+  transform: rotate(40deg);
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+#paisaje a{
+  color: #02010a;
+}
+.imagensecundaria #retrato{
+  width: 50%;
+  text-align: center;
+}
+#retrato img{
+  width: 70%;
+  height: 62%;
+  margin-top: 10px;
+  transition: 2s;
+}
+#retrato img:hover{
+  transform: translate(20px,-5px);
+  box-shadow: 2px 2px 2px #82c3a6;
+}
+#retrato a {
+  color: #02010a;
+}
+.piedepagina{
+  background-color: #C6d5c5;
+  width: 100%;
+  color:#02010a;
+  display: flex;
+  flex-direction: row;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.piedepagina #contacto{
+  width: 25%;
+  margin-left: 10px;
+}
+.piedepagina #terminos{
+  width: 25%;
+}
+.piedepagina #redessociales{
+  width: 25%;
+}
+#redessociales img{
+  width: 10%;
+}
+.piedepagina #derechos{
+  width: 25%;
+}
+@media (max-width:900px) {
+  .contenido{
+    width: 100%;
+  }
+  .cabecera{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .cabecera #titulo{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .cabecera #navegador{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .imagencentral{
+    width: 100%;
+  }
+  .imagensecundaria{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .imagensecundaria #paisaje{
+    width: 100%;
+  }
+  #paisaje img{
+    width: 80%;
+  }
+  .imagensecundaria #retrato{
+    width: 100%;
+  }
+  #retrato img{
+    width: 80%;
+  }
+  .piedepagina{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .piedepagina #contacto{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .piedepagina #terminos{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .piedepagina #redessociales{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .piedepagina #derechos{
+    width: 100%;
+    margin-left: 10px;
+  }
+}
+@-Webkit-keyframes rebote{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}

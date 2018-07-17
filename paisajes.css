@@ -1,0 +1,225 @@
+body{
+  background-color: #01020a;
+}
+img{
+  box-shadow: 2px 2px 2px 2px #02010a;
+}
+#aqui{
+  text-decoration: none;
+}
+.contenido{
+  font-family: Dancing Script;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cabecera{
+width: 100%;
+background-color:#5b7989;
+text-shadow: 2px 2px 2px #02010a;
+color: white;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+animation: rebote 0.5s;
+display: flex;
+flex-direction: row;
+}
+.cabecera a{
+  color: white;
+}
+.cabecera #Titulo{
+  width: 75%;
+  margin-left: 10px;
+}
+.cabecera #Navi{
+  width: 25%;
+  margin-top: 20px;
+}
+.Centro{
+  width: 100%;
+  background-color: #d5c75f;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Centro #Imagen1{
+  width: 33%;
+  order:1;
+}
+#Imagen1{
+  padding-top: 10px;
+  text-align: center;
+}
+#Imagen1 img{
+  width: 90%;
+  height: 90%;
+  -webkit-filter:blur(10px);
+  filter: blur(10px);
+}
+.Centro #Imagen2{
+  width: 33%;
+  order:2;
+}
+#Imagen2{
+  padding-top: 10px;
+  text-align: center;
+}
+#Imagen2 img{
+  width: 90%;
+  height: 90%;
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
+.Centro #Imagen3{
+  width: 33%;
+  order:3;
+}
+#Imagen3{
+  padding-top: 10px;
+  text-align: center;
+}
+#Imagen3 img{
+  width: 90%;
+  height: 90%;
+  -webkit-filter:sepia(90%);
+  filter: sepia(90%);
+}
+.Centro #Imagen4{
+  width: 33%;
+  order:4;
+}
+#Imagen4{
+  padding-top: 10px;
+  text-align: center;
+}
+#Imagen4 img{
+  width: 90%;
+  height: 90%;
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
+.Centro #Imagen5{
+  width: 33%;
+  order:5;
+}
+#Imagen5{
+  padding-top: 10px;
+  text-align: center;
+}
+#Imagen5 img{
+  width: 90%;
+  height: 90%;
+}
+.Centro #Imagen6{
+  width: 33%;
+  order:6;
+}
+#Imagen6{
+  padding-top: 10px;
+  text-align: center;
+}
+#Imagen6 img{
+  width: 90%;
+  height: 90%;
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
+.Piedepagina{
+  width: 100%;
+  background-color: #C6d5c5;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.Piedepagina #Contacto{
+  width: 25%;
+  order: 1;
+  margin-left: 10px;
+}
+.Piedepagina #Terminos{
+  width: 25;
+  order: 2;
+}
+.Piedepagina #Redessociales{
+  width: 25%;
+  order: 3;
+}
+#Redessociales img{
+  width: 8%;
+}
+.Piedepagina #Derechos{
+  width: 25%;
+  order: 4;
+}
+@media (max-width:900px) {
+  .contenido{
+    width: 100%;
+  }
+.cabecera{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.cabecera #Titulo{
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+.cabecera #Navi{
+  width: 100%;
+  margin: auto;
+}
+.Centro{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Centro #Imagen1{
+  width: 100%
+}
+.Centro #Imagen2{
+  width: 100%
+}.Centro #Imagen3{
+  width: 100%
+}.Centro #Imagen4{
+  width: 100%
+}.Centro #Imagen5{
+  width: 100%
+}.Centro #Imagen6{
+  width: 100%
+}
+.Piedepagina{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Piedepagina #Contacto{
+  width: 100%;
+  margin-left: 10px;
+}
+.Piedepagina #Terminos{
+  width: 100%;
+  margin-left: 10px;
+}
+.Piedepagina #Redessociales{
+  width: 100%;
+  margin-left: 10px;
+}
+.Piedepagina #Derechos{
+  width: 100%;
+  margin-left: 10px;
+}
+}
+@-Webkit-keyframes rebote{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}

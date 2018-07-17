@@ -1,0 +1,213 @@
+body{
+  background-color: #02010a;
+  font-family: Dancing Script;
+}
+img{
+  box-shadow: 2px 2px 2px #02010a;
+}
+#Aqui{
+  text-decoration: none;
+}
+.Contenido{
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.Cabecera{
+  width: 100%;
+  color: white;
+  background-color:#5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  animation: rebote 0.5s;
+  display: flex;
+  flex-direction: row;
+}
+.Cabecera #Titulo{
+  width: 75%;
+  margin-left: 10px;
+}
+.Cabecera #Navi{
+  width: 25%;
+  margin-top: 20px;
+}
+#Navi a{
+  color: white;
+}
+.Centro{
+  width: 100%;
+  background-color: #d5c75f;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.Centro #Imagen1{
+  width: 33.3%;
+  text-align: center;
+}
+#Imagen1 img{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 90%;
+  -webkit-filter: blur(10px);
+  filter: blur(10px);
+}
+.Centro #Imagen2{
+  width: 33.3%;
+  text-align: center;
+}
+#Imagen2 img{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 90%;
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
+.Centro #Imagen3{
+  width: 33.3%;
+  text-align: center;
+}
+#Imagen3 img{
+  margin-top: 10px;
+  margin-bottom: 5px;
+  width: 90%;
+  -webkit-filter:sepia(90%);
+  filter: sepia(90%);
+}
+.Centro #Imagen4{
+  width: 33.3%;
+  text-align: center;
+}
+#Imagen4 img{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 90%;
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
+.Centro #Imagen5{
+  width: 33.3%;
+  text-align: center;
+}
+#Imagen5 img{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 90%;
+}
+.Centro #Imagen6{
+  width: 33.3%;
+  text-align: center;
+}
+#Imagen6 img{
+  margin-top: 5px;
+  margin-bottom: 10px;
+  width: 90%;
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+}
+.Piedepagina{
+  width: 100%;
+  background-color: #C6d5c5;
+  color: #02010a;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.Piedepagina #Contacto{
+  width: 25%;
+  margin-left: 10px;
+}
+.Piedepagina #Terminos{
+  width: 25%;
+}
+.Piedepagina #Redessociales{
+  width: 25%;
+}
+#Redessociales img{
+  width: 10%;
+}
+.Piedepagina #Derechos{
+  width: 25%;
+}
+@media (max-width:900px) {
+  .Contenido{
+    width: 100%;
+  }
+  .Cabecera{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .Cabecera #Titulo{
+    width: 100%;
+    margin: auto;
+  }
+  .Cabecera #Navi{
+    width: 100%;
+    margin-top: auto;
+  }
+  .Centro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Centro #Imagen1{
+    width: 100%;
+    margin: auto;
+  }
+  .Centro #Imagen2{
+    width: 100%;
+    margin: auto;
+  }
+  .Centro #Imagen3{
+    width: 100%;
+    margin: auto;
+  }
+  .Centro #Imagen4{
+    width: 100%;
+    margin: auto;
+  }
+  .Centro #Imagen5{
+    width: 100%;
+    margin: auto;
+  }
+  .Centro #Imagen6{
+    width: 100%;
+    margin: auto;
+  }
+  .Piedepagina{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .Piedepagina #Contacto{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .Piedepagina #Terminos{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .Piedepagina #Redessociales{
+    width: 100%;
+    margin-left: 10px;
+  }
+  .Piedepagina #Derechos{
+    width: 100%;
+    margin-left: 10px;
+  }
+
+}
+@-Webkit-keyframes rebote{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
